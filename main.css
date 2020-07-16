@@ -1,0 +1,10 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: Inter;
+  background-color: #373b4a;
+  color: rgba(255, 255, 255, 0.75)
+}
