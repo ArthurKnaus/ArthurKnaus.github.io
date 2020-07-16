@@ -95,6 +95,16 @@
         routeLinz.classList.add('hidden')
       }
     }))
+
+    const iframes = document.querySelectorAll('iframe')
+    console.log(iframes)
+    Array.from(iframes).forEach((iframe) => {
+      iframe.style.opacity = 0
+      iframe.onload = () => {
+        console.log('loaded')
+        iframe.style.opacity = 1
+      }
+    })
   </script>
 
 </body>
