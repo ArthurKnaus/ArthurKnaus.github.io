@@ -19,7 +19,6 @@
 }
 
 html {
-  overflow: hidden;
 }
 
 html, body {
@@ -28,7 +27,6 @@ html, body {
 }
 
 body {
-  overflow: auto;
   max-width: 40rem;
   margin: 0 auto;
   font-family: Inter;
@@ -45,6 +43,12 @@ h2 {
 
 a {
   color: rgba(255, 255, 255, 0.95)
+}
+
+img {
+  display: block;
+  margin: 150vh auto 3rem;
+  max-width: 100%;
 }
 
 .map {
