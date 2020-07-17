@@ -113,6 +113,15 @@ input[type="radio"] {
   visibility: hidden;
 }
 
+table {
+  margin-top: 1rem;
+}
+
+th {
+  text-align: left;
+  padding-right: 1rem;
+}
+
 input[type="radio"]::after {
   cursor: pointer;
   visibility: visible;
