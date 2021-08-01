@@ -5,21 +5,21 @@
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #25272e; 
+  background: #25272e;
 }
- 
+
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgb(92, 93, 117); 
+  background: rgb(92, 93, 117);
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #555; 
+  background: #555;
 }
 
 @keyframes fade-in {
-  0%   {
+  0% {
     opacity: 0;
   }
   100% {
@@ -27,7 +27,8 @@
   }
 }
 
-html, body {
+html,
+body {
   height: 100%;
   box-sizing: border-box;
   perspective: 1000px;
@@ -58,8 +59,9 @@ a {
 
 img {
   display: block;
-  margin: 150vh auto 3rem;
+  margin: 6rem auto 3rem;
   max-width: 100%;
+  padding-bottom: 3rem;
 }
 
 .map {
